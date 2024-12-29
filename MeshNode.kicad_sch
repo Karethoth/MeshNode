@@ -4060,12 +4060,6 @@
 		(uuid "6d63de84-bf2f-4d6f-900f-0c2fee22e3cc")
 	)
 	(junction
-		(at 256.54 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78c6cf6e-52b2-445b-9ab5-1365517c86a6")
-	)
-	(junction
 		(at 29.21 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4154,6 +4148,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da12f867-78ba-43c0-a464-fb8a02559d9e")
+	)
+	(junction
+		(at 257.81 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f59dc320-3af8-4fc9-bdd3-51a302091bf1")
 	)
 	(junction
 		(at 163.83 87.63)
@@ -4287,6 +4287,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 44.45) (xy 257.81 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24ca4e8a-f90c-483f-8191-1692e9508b23")
+	)
+	(wire
+		(pts
 			(xy 54.61 25.4) (xy 58.42 25.4)
 		)
 		(stroke
@@ -4347,7 +4357,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 54.61) (xy 265.43 54.61)
+			(xy 257.81 54.61) (xy 265.43 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4407,7 +4417,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 45.72) (xy 256.54 44.45)
+			(xy 257.81 45.72) (xy 257.81 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4547,7 +4557,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 53.34) (xy 256.54 54.61)
+			(xy 257.81 53.34) (xy 257.81 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4634,16 +4644,6 @@
 			(type default)
 		)
 		(uuid "96ecb9a6-79be-435b-b465-7085d0794aa0")
-	)
-	(wire
-		(pts
-			(xy 256.54 44.45) (xy 257.81 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97630cc6-a350-4685-962a-97eac2f823c5")
 	)
 	(wire
 		(pts
@@ -4757,16 +4757,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 44.45) (xy 256.54 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7c20fb2-d564-41cd-af42-a94d50542b1e")
-	)
-	(wire
-		(pts
 			(xy 80.01 27.94) (xy 78.74 27.94)
 		)
 		(stroke
@@ -4784,16 +4774,6 @@
 			(type default)
 		)
 		(uuid "d98b6f7f-adc8-4e6b-8e89-6ba654ccdebd")
-	)
-	(wire
-		(pts
-			(xy 246.38 43.18) (xy 246.38 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9bc8021-828b-4e98-9962-8054661619bd")
 	)
 	(wire
 		(pts
@@ -4930,7 +4910,7 @@
 		(uuid 4db2e348-2579-48b4-9ff9-08c3b3ec4da7)
 	)
 	(rectangle
-		(start 242.57 12.7)
+		(start 238.76 12.7)
 		(end 283.21 63.5)
 		(stroke
 			(width 0)
@@ -4982,7 +4962,7 @@
 	)
 	(text "GPS module"
 		(exclude_from_sim no)
-		(at 249.174 14.732 0)
+		(at 245.364 14.732 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5432,22 +5412,22 @@
 	)
 	(global_label "GPS_EN"
 		(shape input)
-		(at 246.38 43.18 90)
+		(at 248.92 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "5eaf2b9f-1b3c-4693-8cf0-f7bc082b72c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.38 32.9982 90)
+			(at 238.7382 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8766,7 +8746,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 256.54 49.53 0)
+		(at 257.81 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8775,7 +8755,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd6424f8-4c55-483f-a933-7494783ee058")
 		(property "Reference" "R1"
-			(at 259.08 48.2599 0)
+			(at 260.35 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8784,7 +8764,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 259.08 50.7999 0)
+			(at 260.35 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8793,7 +8773,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 254.762 49.53 90)
+			(at 256.032 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8802,7 +8782,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 256.54 49.53 0)
+			(at 257.81 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8811,7 +8791,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 256.54 49.53 0)
+			(at 257.81 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8966,7 +8946,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 250.19 44.45 90)
+		(at 252.73 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8974,7 +8954,7 @@
 		(dnp no)
 		(uuid "c5648514-4071-4736-a9be-6b9a65889831")
 		(property "Reference" "R2"
-			(at 250.19 41.91 90)
+			(at 252.73 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8982,7 +8962,7 @@
 			)
 		)
 		(property "Value" "220-1k"
-			(at 250.19 46.99 90)
+			(at 252.73 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8990,7 +8970,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 250.19 46.228 90)
+			(at 252.73 46.228 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8999,7 +8979,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 44.45 0)
+			(at 252.73 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9008,7 +8988,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 250.19 44.45 0)
+			(at 252.73 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9026,72 +9006,6 @@
 			(project "MeshNode"
 				(path "/cb11cd72-88ca-4db8-ba82-5b84ed918fd9"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 256.54 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d4b88f32-83d1-4f8a-a10d-f7f4362354a1")
-		(property "Reference" "TP4"
-			(at 255.27 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GPS"
-			(at 251.46 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 261.62 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 261.62 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 256.54 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d7d95c0c-54c5-4d98-b722-ee372c6e5038")
-		)
-		(instances
-			(project "MeshNode"
-				(path "/cb11cd72-88ca-4db8-ba82-5b84ed918fd9"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -9312,7 +9226,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRLZ44N"
+		(property "Value" "IRLML6344"
 			(at 269.24 45.7199 0)
 			(effects
 				(font
@@ -9321,7 +9235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 267.97 46.355 0)
 			(effects
 				(font
