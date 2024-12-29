@@ -4921,7 +4921,7 @@
 		)
 		(uuid 6f5fa67e-22db-4ccb-8924-0733f53084ec)
 	)
-	(text_box "TODO\n- Battery + & - signs and txt\n- Solar + & - signs and txt\n- Tantalum cap footprint to polarized\n- Space for D1 legs on both sides\n- SMD switch for toggling battery connection\n- SMD FET instead of THT\n- Replace SD card module with WX module\n- Status LEDs to the top side"
+	(text_box "TODO\n- Battery + & - signs and txt\n- Solar + & - signs and txt\n- Tantalum cap footprint to polarized\n- Space for D1 legs on both sides\n- SMD switch for toggling battery connection\n- Replace SD card module with WX module\n- Status LEDs to the top side"
 		(exclude_from_sim no)
 		(at 83.82 133.35 0)
 		(size 60.96 53.34)
