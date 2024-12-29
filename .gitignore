@@ -1,0 +1,9 @@
+Output
+Datasheets
+*-bak
+*.bak
+*-backups
+*-cache
+*.lck
+*auto_saved_files*
+_autosave*
